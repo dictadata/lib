@@ -1,0 +1,10 @@
+node_modules/
+
+# test generated data
+output/
+
+# debug logs
+log/
+*.log
+
+# editor directories and files
