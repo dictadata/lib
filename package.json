@@ -1,7 +1,7 @@
 {
   "name": "@dictadata/lib",
-  "version": "1.0.0",
-  "description": "dictadata library of common utility and test modules",
+  "version": "1.0.1",
+  "description": "dictadata library of common logger, utility and test modules",
   "author": "Drew O. Letcher",
   "license": "MIT",
   "keywords": [
@@ -11,34 +11,27 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "main": "./index.js",
+  "main": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js",
-    "./lib": "./lib/index.js",
-    "./lib/*": "./lib/*.js",
-    "./lib/*.js": "./lib/*.js",
-    "./utils": "./lib/utils/index.js",
-    "./utils/*": "./lib/utils/*.js",
-    "./utils/*.js": "./lib/utils/*.js",
+    "./package.json": "./package.json",
     "./test": "./lib/test/index.js",
     "./test/*": "./lib/test/*.js",
-    "./test/*.js": "./lib/test/*.js",
-    "./package.json": "./package.json"
+    "./test/*.js": "./lib/test/*.js"
   },
   "bin": {
-    "tr_launcher": "lib/test/tr_launcher.js",
-    "tr_http_client": "lib/test/tr_http_client.js"
+    "tr_launcher": "./lib/test/tr_launcher.js",
+    "tr_http_queries": "./lib/test/tr_http_queries.js"
   },
   "scripts": {
-    "lint": "eslint lib/**/*.js",
-    "lint-fix": "eslint --fix lib/**/*.js",
+    "lint": "eslint ./lib/**/*.js",
+    "lint-fix": "eslint --fix ./lib/**/*.js",
     "test": "testrunner.bat"
   },
   "directories": {
     "doc": "docs",
     "lib": "lib",
-    "test": "test",
-    "example": "docs"
+    "test": "test"
   },
   "repository": {
     "type": "git",

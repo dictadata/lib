@@ -1,2 +1,1 @@
-exports.utils = require("./lib/utils");
-exports.test = require("./lib/test");
+module.exports = exports = require('./lib/index.js');
