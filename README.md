@@ -33,7 +33,7 @@ const { compare, output } = require('@dictadata/lib/test');
 * typeOf - Returns base type of objects like "string", "array", "date", "regexp" or the object's constructor name.
 * isUUID - Returns true if value is a valid string form of a UUID.
 * isDate - Returns true if value is a local date, ISO date, time part is optional.
-* ynBoolean - Returns true if string value is boolean representation; 'true'|'false', 0|1, yes|no, y|n, on|off.
+* isBoolean - Returns true if string value is boolean representation; 'true'|'false', 0|1, yes|no, y|n, on|off.
 
 * objCopy - Deep copy/replace target properties with source object(s) properties.
 * propCopy - Copies only named properties from source to destination object.
