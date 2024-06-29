@@ -1,5 +1,7 @@
 # @dictadata/lib CHANGELOG
 
+- version 1.0.4
+  - implement match operator 'in' array
 - version 1.0.3
   - refactor: evaluate() implement -*/ math operators
 - version 1.0.2
