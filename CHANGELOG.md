@@ -1,5 +1,7 @@
 # @dictadata/lib CHANGELOG
 
+- version 1.0.6
+  - bug fix: objCopy() handle invalid source values
 - version 1.0.5
   - support regexp as evaluate() expression
 - version 1.0.4
