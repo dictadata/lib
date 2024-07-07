@@ -44,8 +44,8 @@ const { compare, output } = require('@dictadata/lib/test');
 * parseDate - Parse an ISO date string.
 * formatDate - Returns ISO date string, truncates time if zero.
 
-* match - Compares a multi-field filtering expression against an object.
-* evaluate - Use an '=expression' to calculate a value from an object's properties and literal values.
+* [evaluate](./docs/evaluate.md) - Use an '=expression' to calculate a value from an object's properties and literal values.
+* [match](./docs/match.md) - Compares a multi-field filtering expression against an object.
 * replace - Text replacement of "${name}" templates in a string.
 
 * findFile - Walk up directory tree from current directory searching for filename.
