@@ -1,6 +1,6 @@
 {
   "name": "@dictadata/lib",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "dictadata library of common logger, utility and test modules",
   "author": "Drew O. Letcher",
   "license": "MIT",
