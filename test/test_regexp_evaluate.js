@@ -1,9 +1,12 @@
 //let expression = "=field1"
 //let expression = "='literal text'"
-let expression = "=field1+'literal text'*field3/field4-field5"
-console.log(expression.length);
+let expression
+//expression = "=f1*f2-f3/f4*100+'%'"
+expression = "=f1*f2-f3/f4*100:2,%+'%'"
+//expression = "=field1+'literal text'*field3/field4-field5"
+//console.log(expression.length);
 
-let rx = /([\=\+\-\*\/])(\'.*?\'|\w*)/g;
+let rx = /([\=\+\-\*\/])(\'.*?\'|[A-Za-z0-9_@#$.:,% ]*)/g;
 
 let parts;
 while ((parts = rx.exec(expression)) !== null) {
