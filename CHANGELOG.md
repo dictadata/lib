@@ -1,5 +1,9 @@
 # @dictadata/lib CHANGELOG
 
+- version 1.0.7
+  - feature: evaluate() percentage padding :d,%
+  - bug fix: match() exists operator check value is true/false
+  - refactor: dot.has/get/set argument order
 - version 1.0.6
   - bug fix: objCopy() handle invalid source values
 - version 1.0.5
