@@ -77,7 +77,7 @@ console.log("fld2 = " + dot.get(obj2, "fields.name=field2.fields.name=fld2.type"
 console.log("set description = ", dot.set(obj2, "description", "this is a new description"));
 console.log("set source = " + dot.set(obj2, "source", "a source reference"));
 console.log("set field2 description = " + dot.set(obj2, "fields.name=field2.description", "field description"));
-console.log("set field4 = " + dot.set({ "name": "field4", "fields.field4", obj2, "type": "boolean" }));
-console.log("set fld3 = " + dot.set({ "name": "fld3", "fields.name=field2.fields.name=fld3", obj2, "type": "boolean" }));
+console.log("set field4 = " + dot.set(obj2, "fields.field4", { "name": "field4", "type": "boolean" }));
+console.log("set fld3 = " + dot.set(obj2, "fields.name=field2.fields.name=fld3", { "name": "fld3", "type": "boolean" }));
 
 console.log(JSON.stringify(obj2,null,2));

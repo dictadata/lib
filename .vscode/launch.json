@@ -16,6 +16,15 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "dot",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}\\test\\test_dot.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "evaluate",
       "skipFiles": [
         "<node_internals>/**"
