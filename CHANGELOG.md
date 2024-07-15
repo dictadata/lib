@@ -1,5 +1,7 @@
 # @dictadata/lib CHANGELOG
 
+- version 1.0.8
+  - bug fix: circular reference in utils require()
 - version 1.0.7
   - feature: evaluate() percentage padding :d,%
   - bug fix: match() exists operator check value is true/false
