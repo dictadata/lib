@@ -1,5 +1,10 @@
 # @dictadata/lib CHANGELOG
 
+- version 1.0.9
+  - enhancement: waitFor() function
+  - enhancement: file exists() function
+  - enhancement: contentTypeIsJSON() function
+  - enhancement: httpRequest() throw response errors when streaming
 - version 1.0.8
   - bug fix: circular reference in utils require()
 - version 1.0.7
