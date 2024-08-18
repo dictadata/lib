@@ -1,5 +1,7 @@
 # @dictadata/lib CHANGELOG
 
+- version 1.0.10
+  - enhancement: httpRequest options request.family = 4|6 to specify IPv4 or IPv6 protocol
 - version 1.0.9
   - enhancement: waitFor() function
   - enhancement: file exists() function
